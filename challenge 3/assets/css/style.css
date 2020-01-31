@@ -1,0 +1,16 @@
+
+
+  .bigbox{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: 370px;
+     grid-auto-rows: 340px;
+     grid-auto-columns: 200px;
+     grid-gap: 10px;
+  }
+
+   .w > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
