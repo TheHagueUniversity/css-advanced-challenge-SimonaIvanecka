@@ -1,12 +1,19 @@
-
-
+body {
+  position: relative;
+}
+main {
+  margin: 2vw auto;
+    background-color: #B5C7D3
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
   .bigbox{
      display: grid;
-     grid-template-columns: repeat(3,1fr);
+     grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
      grid-template-rows: 370px;
      grid-auto-rows: 340px;
      grid-auto-columns: 200px;
-     grid-gap: 10px;
   }
 
    .w > img {
